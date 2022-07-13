@@ -177,7 +177,7 @@ rename(date = activity_hour)
 ```  
   ![image](https://user-images.githubusercontent.com/107685839/178691010-1c992092-0fbe-4305-baa6-d4e3c60c7da5.png)
 
-## Separting the date and time column
+## Separating the date and time column
  ``` 
   hourly_intensity <- hourly_intensity %>%
     separate(date, into = c("date", "time"), sep =' ')
